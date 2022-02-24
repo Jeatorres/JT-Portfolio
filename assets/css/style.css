@@ -1,4 +1,5 @@
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0; 
 }
@@ -25,6 +26,12 @@ li {
     text-decoration: none;
 }
 
+div {
+    display: flexbox;
+    align-items: right;
+}
+
+
 .text-right {
     text-align: right;
 }
@@ -34,4 +41,5 @@ li {
     width: 10px;
     height: 100%;
 }
+
 
