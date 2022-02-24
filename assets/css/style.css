@@ -24,6 +24,14 @@ li {
     padding: 0px 20px;
     text-decoration: none;
 }
+
 .text-right {
     text-align: right;
 }
+.info-self {
+    margin-left: 10px;
+    float: left;
+    width: 10px;
+    height: 100%;
+}
+
