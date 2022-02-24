@@ -1,21 +1,21 @@
 * {
-    box-sizing: 0;
-    padding: 0;
-    margin: 0;
+    box-sizing: border-box;
 }
 
 body {
     background-color: rgb(160, 209, 252);
+
 }
 
-.header class {
+header {
     padding: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: rgb(29, 32, 59);
-    columns: #ffffff;
+    color: white;
 }
 
 .header h1 {
     display: inline-block;
     font-size: 48px;
+    background-color: rgb(31, 43, 43);
 }
