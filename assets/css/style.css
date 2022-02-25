@@ -1,5 +1,4 @@
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0; 
 }
@@ -26,6 +25,25 @@ li {
     text-decoration: none;
 }
 
+section {
+    max-width: 100%;
+    height: auto;
+}
+.hero {
+    height: 80vh;
+    background-image: url("../images/main-pic.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+a:hover, p:hover {
+    color: lightblue;
+}
+
+a {
+    text-decoration: none;
+}
 div {
     display: flexbox;
     align-items: right;
@@ -33,7 +51,9 @@ div {
 
 
 .text-right {
+    padding: 10px;
     text-align: right;
+    float: bottom;
 }
 .info-self {
     margin-left: 10px;
@@ -41,5 +61,26 @@ div {
     width: 10px;
     height: 100%;
 }
+.item {
+    background-color: rgb(94, 73, 94);
+    flex-grow: 1;
+    width: 100%;
+    border-width: 8px;
+    border-style: solid;
+}
 
+.container {
+    display: flex;
+}
 
+.picture-wrap {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+
+}
+
+.picture {
+    /* object-fit: cover; */
+    height: 100%;
+}
